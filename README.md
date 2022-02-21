@@ -6,6 +6,8 @@ A repo to save all the information I collect about Firefox source, building proc
 
 From **How to build Firefox** by _David Walsh_: https://davidwalsh.name/how-to-build-firefox
 
+If you don't have an HG (Mercurial, software control version) client. You can download TortoiseHG here: https://tortoisehg.bitbucket.io/
+
 ```
 hg clone https://hg.mozilla.org/mozilla-central/
 cd mozilla-central

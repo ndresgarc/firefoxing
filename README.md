@@ -39,6 +39,14 @@ cd mozilla-central
 mach bootstrap
 ```
 
+Choose Firefox version to build
+
+![choose-firefox-version-to-build](images/image-1.png)
+
+```
+> 2
+```
+
 Create a `mozconfig` file:
 
 More info about `mozconfig` files here: https://firefox-source-docs.mozilla.org/build/buildsystem/mozconfigs.html

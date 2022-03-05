@@ -32,6 +32,11 @@ hg clone https://hg.mozilla.org/mozilla-central/
 
 Now we have Firefox source code in C:/mozilla-central
 
+Exclude this folders from Windows firewall:
+
++ "Set anvirus exclusions" from https://firefox-source-docs.mozilla.org/setup/windows_build.html#antivirus-performance
++ https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26
+
 Download dependencies, compile stuff:
 
 ```
@@ -44,7 +49,7 @@ Choose Firefox version to build
 ![choose-firefox-version-to-build](images/image-1.png)
 
 ```
-> 2
+> 1
 ```
 
 Create a `mozconfig` file:
